@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.hero {
+  background-image: url(../image/hero-bg.svg);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+}
+
+header {
+  width: 95%;
+}
+
+header .logo {
+  float: left;
+  color: black;
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+header #navOpen {
+  float: right;
+  color: black;
+  font-size: 2rem;
+  padding: 1.5rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+nav {
+  background: #007cff;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  z-index: 999;
+  display: none;
+}
+
+nav .logo {
+  position: absolute;
+  margin: 2rem;
+  color: white;
+  font-size: 2rem;
+}
+
+nav #navClose {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  color: white;
+  font-size: 2.2rem;
+}
+
+@media (max-width: 900px) {
+  nav #navClose {
+    right: 10%;
+  }
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+nav ul li {
+  margin-top: 2rem;
+  list-style: none;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+nav ul button {
+  margin-top: 2rem;
+  padding: 1rem 1.5rem;
+  background: white;
+  color: #007cff;
+  font-size: 1rem;
+  border: none;
+  -webkit-box-shadow: 2px 1px 3px black;
+          box-shadow: 2px 1px 3px black;
+}
+
+.navAnimation {
+  -webkit-animation: navAnimation;
+          animation: navAnimation;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+.herotext {
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  width: 55%;
+}
+
+@media (max-width: 900px) {
+  .herotext {
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    padding: 0rem 2rem;
+    left: 0%;
+  }
+}
+
+.herotext .text-continue {
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .herotext .text-continue {
+    display: none;
+  }
+}
+
+.herotext h1 {
+  font-size: 2.4rem;
+}
+
+.herotext p {
+  font-size: 1.5rem;
+  margin: .5rem 0rem;
+}
+
+.herotext button {
+  margin-top: .2rem;
+  padding: 1rem 1.5rem;
+  background: #007cff;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  -webkit-box-shadow: 2px 1px 3px black;
+          box-shadow: 2px 1px 3px black;
+  margin-right: .5rem;
+}
+
+@media (max-width: 900px) {
+  .herotext button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: .9rem auto;
+  }
+}
+
+.herotext #hero-btntwo {
+  margin-top: .2rem;
+  padding: 1rem 1.5rem;
+  background: none;
+  font-size: 1rem;
+  border: 2px solid #007cff;
+  -webkit-box-shadow: 2px 1px 3px black;
+          box-shadow: 2px 1px 3px black;
+  color: #007cff;
+}
+
+.hero-overall {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+@media (max-width: 900px) {
+  .hero-overall {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.hero-overall .heroimg {
+  position: absolute;
+  right: 0;
+  top: 10%;
+}
+
+@media (max-width: 900px) {
+  .hero-overall .heroimg {
+    position: absolute;
+    top: 70%;
+    margin: 0 auto;
+    right: 10%;
+  }
+}
+
+.hero-overall .heroimg img {
+  width: 32rem;
+}
+
+@media (max-width: 900px) {
+  .hero-overall .heroimg img {
+    width: 20rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */

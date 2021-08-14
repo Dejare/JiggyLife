@@ -1,0 +1,8 @@
+@keyframes navAnimation {
+    from{
+        transform: translateX(-999px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}

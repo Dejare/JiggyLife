@@ -1,0 +1,21 @@
+@-webkit-keyframes navAnimation {
+  from {
+    -webkit-transform: translateX(-999px);
+            transform: translateX(-999px);
+  }
+  to {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+@keyframes navAnimation {
+  from {
+    -webkit-transform: translateX(-999px);
+            transform: translateX(-999px);
+  }
+  to {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+/*# sourceMappingURL=animation.css.map */
