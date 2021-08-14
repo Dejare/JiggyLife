@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
 }
 
 .hero {
@@ -211,7 +213,7 @@ nav ul button {
 .hero-overall .heroimg {
   position: absolute;
   right: 0;
-  top: 10%;
+  top: 20%;
 }
 
 @media (max-width: 900px) {
@@ -230,6 +232,12 @@ nav ul button {
 @media (max-width: 900px) {
   .hero-overall .heroimg img {
     width: 20rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero-overall .heroimg img {
+    top: 80%;
   }
 }
 /*# sourceMappingURL=main.css.map */
