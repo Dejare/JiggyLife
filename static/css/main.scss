@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700;800;900&display=swap');
 
 $base-color: #007cff;
 $text-color: black;
@@ -6,6 +7,7 @@ $bg-color: #007cff;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
     // color: #edf2f4;
 }
 .hero{
@@ -153,7 +155,7 @@ nav{
     .heroimg{
         position: absolute;
         right: 0;
-        top: 10%;
+        top: 20%;
         @media (max-width: 900px) {
             position: absolute;
             top: 70%;
@@ -164,6 +166,9 @@ nav{
             width: 32rem;
             @media (max-width: 900px) {
                 width: 20rem;
+            }
+            @media (max-width: 400px) {
+                top: 80%;
             }
         }
     }
