@@ -27,6 +27,10 @@ header{
         color: $text-color;
         font-size: 2rem;
         padding: 2rem;
+        @media (max-width: 900px) {
+            font-size: 1rem;
+            padding: 1rem;
+        }
     }
     #navOpen{
         float: right;
@@ -35,6 +39,10 @@ header{
         padding: 1.5rem;
         cursor: pointer;
         user-select: none;
+        @media (max-width: 900px) {
+            font-size: 1rem;
+            padding: 0.5rem;
+        }
     }
 }
 nav{
@@ -48,16 +56,20 @@ nav{
         margin: 2rem;
         color: white;
         font-size: 2rem;
-        
+        @media (max-width: 900px){
+            font-size: 1rem;
+            margin: 1rem;
+        }
     }
     #navClose{
         position: absolute;
-        top: 5%;
+        padding: 1rem;
         right: 5%;
         color: white;
         font-size: 2.2rem;
         @media (max-width: 900px) {
-            right: 10%;
+            font-size: 2rem;
+            padding: 0.5rem;
         }
     }
     ul{
@@ -119,10 +131,16 @@ nav{
     h1{
         font-size: 2.4rem;
         letter-spacing: -0.12rem;
+        @media (max-width: 900px){
+            font-size: 2rem;
+        }
     }
     p{
         font-size: 1.5rem;
         margin: .5rem 0rem;
+        @media (max-width: 900px){
+            font-size: 1rem;
+        }
     }
     button{
         margin-top: .2rem;
@@ -131,7 +149,7 @@ nav{
         color: white;
         font-size: 1rem;
         border: none;
-        box-shadow: 2px 1px 3px black;
+        //box-shadow: 2px 1px 3px black;
         margin-right: .5rem;
         @media (max-width: 900px) {
             display: flex;
@@ -145,7 +163,7 @@ nav{
         background: none;
         font-size: 1rem;
         border: 2px solid $bg-color;
-        box-shadow: 2px 1px 3px black;
+        //box-shadow: 2px 1px 3px black;
         color: $bg-color;
     }
 }
@@ -161,7 +179,7 @@ nav{
         top: 20%;
         @media (max-width: 900px) {
             position: absolute;
-            top: 70%;
+            top: 80%;
             margin: 0 auto;
             right: 10%;
         }

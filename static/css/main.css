@@ -8,8 +8,7 @@
 }
 
 .hero {
-  //background-image: url(../image/hero-bg.svg);
-  background-color: white;
+  background-image: url(../image/hero-bg.svg);
   width: 100%;
   height: 100vh;
   background-position: center;
@@ -32,6 +31,13 @@ header .logo {
   padding: 2rem;
 }
 
+@media (max-width: 900px) {
+  header .logo {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+}
+
 header #navOpen {
   float: right;
   color: black;
@@ -42,6 +48,13 @@ header #navOpen {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+}
+
+@media (max-width: 900px) {
+  header #navOpen {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
 }
 
 nav {
@@ -60,9 +73,16 @@ nav .logo {
   font-size: 2rem;
 }
 
+@media (max-width: 900px) {
+  nav .logo {
+    font-size: 1rem;
+    margin: 1rem;
+  }
+}
+
 nav #navClose {
   position: absolute;
-  top: 5%;
+  padding: 1rem;
   right: 5%;
   color: white;
   font-size: 2.2rem;
@@ -70,7 +90,8 @@ nav #navClose {
 
 @media (max-width: 900px) {
   nav #navClose {
-    right: 10%;
+    font-size: 2rem;
+    padding: 0.5rem;
   }
 }
 
@@ -154,13 +175,25 @@ nav ul button {
 }
 
 .herotext h1 {
-  font-size: 2rem;
+  font-size: 2.4rem;
   letter-spacing: -0.12rem;
 }
 
+@media (max-width: 900px) {
+  .herotext h1 {
+    font-size: 2rem;
+  }
+}
+
 .herotext p {
-  //font-size: 1.5rem;
+  font-size: 1.5rem;
   margin: .5rem 0rem;
+}
+
+@media (max-width: 900px) {
+  .herotext p {
+    font-size: 1rem;
+  }
 }
 
 .herotext button {
@@ -170,8 +203,6 @@ nav ul button {
   color: white;
   font-size: 1rem;
   border: none;
-  -webkit-box-shadow: 2px 1px 3px black;
-          box-shadow: 2px 1px 3px black;
   margin-right: .5rem;
 }
 
@@ -194,8 +225,6 @@ nav ul button {
   background: none;
   font-size: 1rem;
   border: 2px solid #007cff;
-  -webkit-box-shadow: 2px 1px 3px black;
-          box-shadow: 2px 1px 3px black;
   color: #007cff;
 }
 
@@ -227,7 +256,7 @@ nav ul button {
 @media (max-width: 900px) {
   .hero-overall .heroimg {
     position: absolute;
-    top: 70%;
+    top: 80%;
     margin: 0 auto;
     right: 10%;
   }
@@ -262,10 +291,9 @@ nav ul button {
 @media (max-width: 400px) {
   .hero-overall .heroimg img {
     position: absolute;
-    top: 80%;
+    top: 90%;
     margin: 0 auto;
     right: 10%;
-    width: 16rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
