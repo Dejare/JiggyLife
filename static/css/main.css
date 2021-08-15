@@ -183,7 +183,7 @@ nav ul button {
   .herotext h1 {
     font-size: 2rem;
     text-transform: uppercase;
-    letter-spacing: normal;
+    letter-spacing: -0.1rem;
   }
 }
 
