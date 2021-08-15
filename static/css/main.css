@@ -17,6 +17,8 @@
 @media (max-width: 500px) {
   .hero {
     height: 130vh;
+    background-image: none;
+    background-color: white;
   }
 }
 
