@@ -182,7 +182,7 @@ nav ul button {
 @media (max-width: 900px) {
   .herotext h1 {
     font-size: 2rem;
-    text-transform: capitalize;
+    text-transform: uppercase;
     letter-spacing: normal;
   }
 }
