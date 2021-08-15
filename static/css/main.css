@@ -33,7 +33,7 @@ header .logo {
 
 @media (max-width: 900px) {
   header .logo {
-    font-size: 1rem;
+    font-size: 1.4rem;
     padding: 1rem;
   }
 }
@@ -52,8 +52,8 @@ header #navOpen {
 
 @media (max-width: 900px) {
   header #navOpen {
-    font-size: 1rem;
-    padding: 0.5rem;
+    font-size: 1.4rem;
+    padding: 0.3rem;
   }
 }
 
