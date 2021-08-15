@@ -262,7 +262,7 @@ nav ul button {
 @media (max-width: 400px) {
   .hero-overall .heroimg img {
     position: absolute;
-    top: 90%;
+    top: 80%;
     margin: 0 auto;
     right: 10%;
     width: 16rem;
